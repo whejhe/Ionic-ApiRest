@@ -1,0 +1,36 @@
+fuente - https://www.youtube.com/watch?v=hI5PJkXCKJs
+
+documentacion - https://ionicframework.com/docs/intro/cli
+
+Desde c:\Users\user\Desktop
+npm install -g @ionic/cli
+
+ionic start
+
+api a usar - https://rickandmortyapi.com/documentation
+rickandmorty - https://rickandmortyapi.com/api/character
+vtes cartas - https://static.krcg.org/data/vtes.json
+vtes mazos - https://static.krcg.org/data/twda.json
+
+Lanzar Aplicacion:
+ionic serve
+
+Generar nueva pagina:
+ionic generate page
+
+instalar capacitor:
+npm install @capacitor/android
+npx cap add android
+o
+ionic capacitor sync
+ionic capacitor and android
+
+para construir nuestra aplicacion:
+ionic build --prod
+
+para ejecutarlo:
+npx cap open android
+npx cap sync
+
+Para generar un apk desde android Visual:
+build/build Bundle APK/Build APK

@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Personajes</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let carta of cartas" [routerLink]="['/profile-cards/' + carta.id]">
+      <ion-avatar slot="start">
+        <img src="{{carta.url}}">
+      </ion-avatar>
+      <ion-label>{{carta.name}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
