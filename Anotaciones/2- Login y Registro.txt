@@ -1,2 +1,5 @@
 ionic g page page/login
 ionic g page page/registro
+
+
+ng generate module nombre-modulo
